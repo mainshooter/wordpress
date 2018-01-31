@@ -4,6 +4,7 @@
       <div class="col-3">
         <!-- Menu -->
         <?php wp_nav_menu( array( 'theme_location' => 'side-menu' ) ); ?>
+        <?php get_sidebar(); ?>
       </div><div class="col-9">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

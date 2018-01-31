@@ -57,3 +57,20 @@ Text Domain: peter
   margin-bottom: 7px;
   font-weight: normal;
 }
+
+#sidebar {
+  text-align: left;
+}
+#sidebar > li {
+  margin-bottom: 0.8em
+}
+#sidebar li ul li {
+  margin: 0.3em 0;
+}
+#sidebar li ul > h1,h2,h3,h4,h5,h6 {
+  font-weight: 900;
+}
+#sidebar li ul li a {
+  color: black;
+  text-decoration: none;
+}
